@@ -1,3 +1,4 @@
 #pragma once
-
-int  __declspec(dllexport) inferByPython();
+#include <iostream>
+#include <string>
+int  __declspec(dllexport) inferByPython(const std::string& path);
