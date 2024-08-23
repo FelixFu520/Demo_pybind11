@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # 自己定义的
-third_party
+3rd
 
 
 # User-specific files
