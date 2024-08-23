@@ -1,9 +1,6 @@
 import numpy as np
 import cv2
-import example
 
-def inferByPython() -> int:
-
-    print(f"Python: image shape: {image.shape}")
-    cv2.imwrite('test2.jpg', image)
-    return 0
+def inferByPython(image) -> list:
+    print(type(image))
+    return [np.array([10, 20, 30, 40, 0.9, 2]), np.array([50, 60, 70, 80, 0.8, 1])]
